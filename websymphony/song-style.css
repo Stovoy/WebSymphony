@@ -20,6 +20,12 @@ html, body {
 }
 
 #song_start, #song_stop, #song_restart {
+    margin-top: 10px;
+    margin-left:5px;
+    margin-right:5px;
+    padding: 4px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: left;
     z-index: 16777271;
 }
 

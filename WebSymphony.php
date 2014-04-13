@@ -114,7 +114,6 @@ function makeSong($url) {
     $redirect = redirects($url);
     if ($redirect != false) {
         $url = $redirect;
-        echo $url . '<br>';
         $redirect = redirects($url);
         if ($redirect != false) {
             $url = $redirect;
@@ -172,10 +171,6 @@ function makeSong($url) {
 </head>
 <body>
 <?php
-//Report all errors
-error_reporting(-1);
-ini_set('error_reporting', E_ALL);
-
 $url = $_GET['url'];
 $valid_page = false;
 
