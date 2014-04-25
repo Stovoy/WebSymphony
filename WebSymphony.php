@@ -213,7 +213,7 @@ function makeSongHtml($url) {
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="websymphony/dependencies/foundation.css">
-    <link rel="stylesheet" type="text/css" href="websymphony/Style.css">
+    <link rel="stylesheet" type="text/css" href="websymphony/websymphony-style.css">
 </head>
 <body>
 <?php
