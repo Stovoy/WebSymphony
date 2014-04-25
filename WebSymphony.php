@@ -1,6 +1,6 @@
 <?php
 
-include 'websymphony/dom_editor.php';
+include 'websymphony/dependencies/dom_editor.php';
 
 # Globals
 $song_path = null;
@@ -200,7 +200,7 @@ function makeSongHtml($url) {
             # Stylesheets and JS libraries
             '<link rel="stylesheet" type="text/css" href="../song-style.css">' .
             '<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>' .
-            '<script type="text/javascript" src="../howler.min.js"></script>' .
+            '<script type="text/javascript" src="../dependencies/howler.min.js"></script>' .
             '<script type="text/javascript" src="../song-engine.js"></script>';
     }
 
@@ -212,7 +212,7 @@ function makeSongHtml($url) {
 
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="websymphony/foundation.css">
+    <link rel="stylesheet" type="text/css" href="websymphony/dependencies/foundation.css">
     <link rel="stylesheet" type="text/css" href="websymphony/Style.css">
 </head>
 <body>
